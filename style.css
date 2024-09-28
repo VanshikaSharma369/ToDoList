@@ -1,0 +1,85 @@
+*{
+ background: #4be42d;
+}
+
+.first{
+    display: flexbox;
+}
+.second{
+    display: flexbox;
+    color: blue;
+    text-align: center;
+    font-size: 35px;
+    font-family: cursive;
+}
+.third{
+    display: flexbox;
+    color: rebeccapurple;
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    border: 3px solid rgb(192, 9, 168);
+    border-radius: 13px;
+    padding-block: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.btn{
+    cursor: grab;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: brown;
+    color: indigo;
+    margin-left: 20px;
+    background-color: white;
+}
+.side{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0px;
+    background: #37c1eb;
+}
+.showTask{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0px;
+    background: #37c1eb;
+}
+.mainMenu{
+    background: #37c1eb;
+    padding-top: 50px;
+}
+.rside{
+    background: white;
+    height: 30px;
+    width: 290px;
+    margin-bottom: 20px;
+}
+h2{
+    background: #37c1eb;
+    color:saddlebrown;
+    text-decoration-line: underline ;
+}
+.closebtn{
+    border: 3px;
+    color: black;
+    margin-left: 0px;
+    font-size: xx-large;
+    font-family: cursive;
+    background: #37c1eb;
+}
+

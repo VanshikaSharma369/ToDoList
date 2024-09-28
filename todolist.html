@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOLIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contentArea" id="content">
+        <div class="second">
+            <h1>TO DO LIST</h1>
+            <p>Add your task to do today</p>
+        </div>
+        <div class="third">
+            <p>TASKS</p>
+            <button class="btn" onclick="addTask()" id="add">+ ADD TASKS</button>
+            <button class="btn" onclick="showTasks()" id="show">SHOW TASKS</button>
+        </div>
+    </div>
+    
+    <div class="side" id="side">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+        <div class="mainMenu">
+            <h2>ENTER TASKS TO ADD</h2>
+            <input type="text" placeholder="Enter task to add" class="rside" id="Add">
+            <button class="btn" onclick="add()">+ ADD</button>
+            <h5 id="Alert"></h5>
+            <ul id="taskList" class="taskList"></ul>
+        </div>
+    </div>
+    
+    <div class="showTask" id="showTask">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+        <div class="mainMenu">
+            <h2>TASK LIST</h2>
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
